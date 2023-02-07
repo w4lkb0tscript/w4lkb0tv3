@@ -1,11 +1,11 @@
 {{
 	weaponname = "Halloween C4",
 	modelname = "C4",
-	model = game.ReplicatedStorage.Viewmodels:FindFirstChild("v_C4Halloween")
+	model = game.ReplicatedStorage.Viewmodels["v_C4Halloween"]:Clone()
 },{
 	weaponname = "Old M4A1",
 	modelname = "M4A1",
-	model = game.ReplicatedStorage.Viewmodels:FindFirstChild("v_oldM4A1-S")
+	model = game.ReplicatedStorage.Viewmodels["v_oldM4A1-S"]:Clone()
 },{
 	weaponname = "Old Scout",
 	modelname = "Scout",
@@ -14,6 +14,66 @@
 	weaponname = "Old AWP",
 	modelname = "AWP",
 	model = game:GetObjects("rbxassetid://6587879507")[1]["AWP"]
+},{
+        weaponname = "Old Awp Doge lore",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6603299079")[1]
+},{
+        weaponname = "Old AWP 02",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6647769269")[1]
+},{
+        weaponname = "Old AWP Weeb",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6655720351")[1]
+},{
+        weaponname = "Old AWP JTF2",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6655879015")[1]
+},{
+        weaponname = "Old AWP Nerf",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6657360618")[1]
+},{
+        weaponname = "Old AWP Grepkin",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6655883134")[1]
+},{
+        weaponname = "Old AWP Medusa",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6685391063")[1]
+},{
+        weaponname = "Old AWP Hyper Beast",
+        modelname = "Bayonet",
+        model = game:GetObjects("rbxassetid://6685386801")[1]
+},{
+        weaponname = "Old AWP Redline",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6688395944")[1]
+},{
+        weaponname = "Old AWP Dragon Lore",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6688324627")[1]
+},{
+        weaponname = "Old AWP Asiimov",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6688342167")[1]
+},{
+        weaponname = "Old AWP Mortis",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6688373364")[1]
+},{
+        weaponname = "Old AWP Fever Dream",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6688381209")[1]
+},{
+        weaponname = "Old Awp Exoskeleton",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6688402770")[1]
+},{
+        weaponname = "Old AWP Phobos",
+        modelname = "AWP",
+        model = game:GetObjects("rbxassetid://6688410239")[1]
 },{
 	weaponname = "Old USP",
 	modelname = "USP",
@@ -38,4 +98,8 @@
 	weaponname = "Old Flip Knife",
 	modelname = "Flip Knife",
 	model = game:GetObjects("rbxassetid://6587879507")[1]["Flip Knife"]
+},{
+	weaponname = "Crewmate",
+	modelname = "Bayonet",
+	model = game:GetObjects("rbxassetid://6500791405")[1]
 }}
